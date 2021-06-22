@@ -1,0 +1,42 @@
+MotChallenge2DBox
+ch_yolov5m_deep_sort
+Traceback (most recent call last):
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 220, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Ground-truth data contains the following invalid timesteps in seq MOT16-02: 769, 
+
+
+
+
+
+MotChallenge2DBox
+ch_yolov5m_deep_sort
+Traceback (most recent call last):
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/eval.py", line 86, in evaluate
+    res[curr_seq] = eval_sequence(curr_seq, dataset, tracker, class_list, metrics_list,
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/_timing.py", line 17, in wrap
+    result = f(*args, **kw)
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/datasets/_base_dataset.py", line 92, in get_raw_seq_data
+    raw_gt_data = self._load_raw_file(tracker, seq, is_gt=True)
+  File "/data.local/hangd/new/vtx/Yolov5_DeepSort_Pytorch/MOT16_eval/TrackEval/trackeval/datasets/mot_challenge_2d_box.py", line 220, in _load_raw_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: Ground-truth data contains the following invalid timesteps in seq MOT16-02: 769, 
+
+
+
+
+
