@@ -8,6 +8,11 @@
 MOT16_eval/TrackEval/data/gt/mot_challenge/MOT16-train/MOT16-02/gt/seqinfo.ini
 
 MOT16_eval/TrackEval/data/gt/mot_challenge/MOT16-train/MOT16-02/seqinfo.ini
+
+![image](https://user-images.githubusercontent.com/26327367/123242531-4e9a7000-d50c-11eb-9d33-36f221e9cc7b.png)
+
+Thay seqLength bằng số frame lớn nhất trong file gt.txt của bạn 
+Thay đổi W,H như của ảnh của bạn 
 ## Thay model predict result của bạn vào file này: 
 MOT16_eval/TrackEval/data/trackers/mot_challenge/MOT16-train/ch_yolov5m_deep_sort/data/MOT16-02.txt
 
