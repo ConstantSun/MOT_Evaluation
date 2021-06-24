@@ -11,3 +11,6 @@ MOT16_eval/TrackEval/data/gt/mot_challenge/MOT16-train/MOT16-02/seqinfo.ini
 ## Thay model predict result của bạn vào file này: 
 MOT16_eval/TrackEval/data/trackers/mot_challenge/MOT16-train/ch_yolov5m_deep_sort/data/MOT16-02.txt
 
+## Lệnh chạy 
+$ ./MOT16_eval/eval.sh  
+
