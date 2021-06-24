@@ -14,3 +14,8 @@ MOT16_eval/TrackEval/data/trackers/mot_challenge/MOT16-train/ch_yolov5m_deep_sor
 ## Lệnh chạy 
 $ ./MOT16_eval/eval.sh  
 
+
+## File kết quả : (file csv & txt )
+![image](https://user-images.githubusercontent.com/26327367/123239381-7e944400-d509-11eb-93d0-7608df39eb2f.png)
+
+
