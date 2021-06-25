@@ -28,7 +28,7 @@ class Evaluator:
             'PRINT_CONFIG': True,
             'TIME_PROGRESS': True,
             'DISPLAY_LESS_PROGRESS': True,
-
+            'SAVE_CSV_NAME': '',
             'OUTPUT_SUMMARY': True,
             'OUTPUT_EMPTY_CLASSES': True,  # If False, summary files are not output for classes with no detections
             'OUTPUT_DETAILED': True,
@@ -152,10 +152,11 @@ class Evaluator:
                                 if config['PLOT_CURVES']:
                                     metric.plot_single_tracker_results(table_res, tracker_display_name, c_cls,
                                                                        output_fol)
+                            self.config['SAVE_CSV_NAME'] = self.config['SAVE_CSV_NAME'].split(".")[0]
                             if config['OUTPUT_SUMMARY']:
-                                utils.write_summary_results(summaries, c_cls, output_fol)
+                                utils.write_summary_results(summaries, self.config['SAVE_CSV_NAME'], output_fol)
                             if config['OUTPUT_DETAILED']:
-                                utils.write_detailed_results(details, c_cls, output_fol)
+                                utils.write_detailed_results(details, self.config['SAVE_CSV_NAME'], output_fol)
 
                     # Output for returning from function
                     output_res[dataset_name][tracker] = res
