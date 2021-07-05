@@ -1,4 +1,3 @@
-# Lưu ý:  git clone repo tại thư mục /home/ hoặc là /root/
 ## src: https://github.com/JonathonLuiten/TrackEval
 ##   &   https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch.git
 ## MOT_Evaluation
